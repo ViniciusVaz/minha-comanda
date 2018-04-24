@@ -1,0 +1,44 @@
+{
+  "name": "minha-comanda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "production": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusVaz/minha-comanda.git"
+  },
+  "keywords": [
+    "Vue",
+    "Vuex",
+    "Javascript"
+  ],
+  "author": "Vinicius Vaz <viniciushenriquevaz@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ViniciusVaz/minha-comanda/issues"
+  },
+  "homepage": "https://github.com/ViniciusVaz/minha-comanda#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "vue": "^2.5.16",
+    "vuex": "^3.0.1"
+  }
+}
